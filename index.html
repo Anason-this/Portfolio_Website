@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="logo">
+        <h2><span class="highlight">{</span> Anason <span class="highlight">}</span></h2>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="glitch" data-text="ANASON">ANASON</h1>
+        <h3>Cybersecurity Analyst & Network Architect</h3>
+        <p>Protecting networks, analyzing threats, and building resilient infrastructure.</p>
+        <div class="cta-buttons">
+            <a href="#portfolio" class="btn primary">View Portfolio</a>
+            <a href="#contact" class="btn secondary">Get In Touch</a>
+        </div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="cyber-grid"></div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="section-header">
+        <h2><span class="highlight">#</span> About Me</h2>
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <p>Hi there, I'm Anas Aouaje, a passionate computer science student, specializing in information systems security and network engineering, I am currently undergoing training to develop strong technical skills in these complementary and strategic fields. Curious, meticulous, and determined, I am fully committed to tackling the challenges related to cybersecurity and network infrastructure administration. My goal is to contribute effectively to the security and performance of IT systems in a constantly evolving technological environment.</p>
+            <div class="skills">
+                <div class="skill-category">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li>Firewall Management & Configuration</li>
+                        <li>Intrusion Detection and Prevention Systems (IDPS)</li>
+                        <li>Virtual Private Network (VPN) Management</li>
+                        <li>Security Information and Event Management (SIEM)</li>
+                        <li>Cloud Security Solutions</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Technologies</h4>
+                    <ul>
+                        <li>Kali Linux</li>
+                        <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                        <li>Cloud Platforms</li>
+                        <li>Eve-ng & Packet tracer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <div class="image-container">
+                <img src="C:\Users\PC\Desktop\PORTFOLIO\profile.png" alt="Anason - Cybersecurity Expert">
+                <div class="image-glitch"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="section-header">
+        <h2><span class="highlight">#</span> Portfolio</h2>
+    </div>
+    <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pentest">Monitoring & Detection</button>
+        <button class="filter-btn" data-filter="web">Network configuration & Web Security</button>
+        <button class="filter-btn" data-filter="network">Network Security</button>
+    </div>
+    <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="pentest">
+            <div class="portfolio-content">
+                <div class="portfolio-overlay">
+                    <h3>ELK Stack SIEM Solution</h3>
+                    <p>Implemented a centralized ELK Stack SIEM to collect, visualize, and analyze logs from firewalls, endpoints, and servers, enabling proactive threat detection and rapid incident response.</p>
+                    <a href="#" class="btn small">View Case Study</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="C:\Users\PC\Desktop\PORTFOLIO\Images\Solution Siem.png" alt="Critical Infrastructure Audit">
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item" data-category="web">
+            <div class="portfolio-content">
+                <div class="portfolio-overlay">
+                    <h3><br>
+                        Hospital Network Infrastructure<br>
+                    </h3>
+                    <p>Designed and implemented a secure, segmented hospital network infrastructure supporting critical systems, ensuring high availability, security, and efficient data flow between departments.</p>
+                    <a href="#" class="btn small">View Case Study</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="C:\Users\PC\Desktop\PORTFOLIO\Images\Hospital.png" alt="Banking Application Security">
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item" data-category="network">
+            <div class="portfolio-content">
+                <div class="portfolio-overlay">
+                    <h3>Secure Network Architecture & Threat Simulation
+                    </h3>
+                    <p>Designed a robust network infrastructure with EVE-ng, performed simulated attacks on critical segments, implemented centralized logging, and deployed targeted cybersecurity solutions to proactively mitigate threats.
+                    </p>
+                    <a href="#" class="btn small">View Case Study</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="C:\Users\PC\Desktop\PORTFOLIO\Images\Eve ng.png" alt="Enterprise Network Hardening">
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item" data-category="web">
+            <div class="portfolio-content">
+                <div class="portfolio-overlay">
+                    <h3><br>
+                        Linux IPTables Web Interface
+                        <br>
+                    </h3>
+                    <p>Developed an intuitive web app using Flask and HTML to simplify management of Linux firewall rules, enabling users to add, monitor, and remove IPTables rules easily.</p>
+                    <a href="#" class="btn small">View Case Study</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="C:\Users\PC\Desktop\PORTFOLIO\Images\Iptables.png" alt="E-commerce Security Enhancement">
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-item" data-category="pentest">
+            <div class="portfolio-content">
+                <div class="portfolio-overlay">
+                    <h3>Enterprise Network Attack & Defense Lab</h3>
+                    <p>Simulated real-world attacks using Kali Linux and monitored threats with Splunk SIEM, targeting a vulnerable AD-based network segmented by pfSense.</p>
+                    <a href="#" class="btn small">View Case Study</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="C:\Users\PC\Desktop\PORTFOLIO\Images\Monitoring & Detection.png" alt="Government Portal Penetration Test">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Awards Section -->
+<section id="awards" class="awards">
+    <div class="section-header">
+        <h2><span class="highlight">#</span> Awards & Certifications</h2>
+    </div>
+    <div class="awards-container">
+        <div class="award-item">
+            <div class="award-icon">
+                <i class="fas fa-award"></i>
+            </div>
+            <div class="award-details">
+                <h3>ELK Stack for Cybersecurity Monitoring</h3>
+                <p>Elastic Certified Training</p>
+                <span class="award-date">2024</span>
+            </div>
+        </div>
+        <div class="award-item">
+            <div class="award-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <div class="award-details">
+                <h3>Fortinet Network Security</h3>
+                <p>Fortinet</p>
+                <span class="award-date">2025</span>
+            </div>
+        </div>
+        <div class="award-item">
+            <div class="award-icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <div class="award-details">
+                <h3>Linux Essentials Certification</h3>
+                <p>Linux Fondamentals</p>
+                <span class="award-date">2023</span>
+            </div>
+        </div>
+        <div class="award-item">
+            <div class="award-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="award-details">
+                <h3>Cisco Network basics</h3>
+                <p>Cisco</p>
+                <span class="award-date">2023</span>
+            </div>
+        </div>
+        <div class="award-item">
+            <div class="award-icon">
+                <i class="fas fa-bug"></i>
+            </div>
+            <div class="award-details">
+                <h3>Network Labs Mastery with EVE-NG & Packet Tracer</h3>
+                <p>Self-Paced Practical Training</p>
+                <span class="award-date">2021-2024</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="section-header">
+        <h2><span class="highlight">#</span> Contact Me</h2>
+    </div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>Interested in working together? Contact me!</p>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>anas.aouaje@uit.ac.ma</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <span>+212 645684815</span>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/anas-aouaje-589ab2301/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="https://www.instagram.com/kleri_kos/"><i class="fab fa-medium"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <h3><span class="highlight">{</span> Anason <span class="highlight">}</span></h3>
+            <p>Cybersecurity enthusiast</p>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Anason Security. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
